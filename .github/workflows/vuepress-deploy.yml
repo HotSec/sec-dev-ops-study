@@ -10,9 +10,9 @@ jobs:
     - name: Build and Deploy
       uses: jenkey2011/vuepress-deploy@master
       env:
-        ACCESS_TOKEN: ${{ secrets.GH_TOKEN }}
-        TARGET_REPO: HotSec/sec-dev-ops-study
-        TARGET_BRANCH: gh_pages
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        TARGET_REPO: HotSec/hotsec.github.com
+        TARGET_BRANCH: gh-pages
         BUILD_SCRIPT: yarn && yarn run docs:build
         BUILD_DIR: dist
-        CNAME: https://hostsec.github.io
+        COMMIT_MESSAGE: Auto deploy by the Vuepress-deploy 
