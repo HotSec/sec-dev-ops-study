@@ -7,7 +7,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: zmf96
+    - name: zmf963
       uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.GH_TOKEN }}
