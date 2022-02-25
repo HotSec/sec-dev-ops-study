@@ -7,12 +7,12 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: zmf963
-      uses: HotSec/sec-dev-ops-study@master
+    - name: Build and Deploy
+      uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.GH_TOKEN }}
-        TARGET_REPO: HotSec/hotsec.github.com
-        TARGET_BRANCH: main
+        TARGET_REPO: HotSec/sec-dev-ops-study
+        TARGET_BRANCH: gh_pages
         BUILD_SCRIPT: yarn && yarn run docs:build
         BUILD_DIR: dist
         CNAME: https://hostsec.github.io
