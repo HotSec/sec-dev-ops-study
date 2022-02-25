@@ -12,7 +12,7 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.GH_TOKEN }}
         TARGET_REPO: HotSec/sec-dev-ops-study
-        TARGET_BRANCH: main
+        TARGET_BRANCH: master
         BUILD_SCRIPT: yarn && yarn run docs:build
         BUILD_DIR: dist
         CNAME: https://hostsec.github.io
