@@ -21,6 +21,7 @@ module.exports = [
         title: '开发',
         collapsable: true,
         children: [
+            '/dev/c',
             '/dev/python/',
             '/dev/golang/',
             '/dev/web/',
