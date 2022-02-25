@@ -22,7 +22,7 @@ footer: Copyright © 2020-2022
 
 # 更新记录
 
-- [x] sec-dev-ops-study 自动部署
+- [x] sec-dev-ops-study 自动部署 20220225
 - [x] subdomain v0.1.0 异步协程子域名爆破工具 20220222
 - [x] 完成初始化 20220219
 
